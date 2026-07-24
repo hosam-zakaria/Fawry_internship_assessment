@@ -2,8 +2,9 @@
 
 A simple Java Object-Oriented Programming (OOP) project that simulates a traffic radar system. The system observes passing vehicles, applies traffic rules, detects violations, and generates traffic fines.
 
-## Project Structure
+![Program Output](resault.jpg)
 
+## Project Structure
 ```
 ScrRadar/
 │── Main.java
@@ -16,7 +17,6 @@ ScrRadar/
 │── Printer.java
 └── Violation.java
 ```
-![Program Output](resault.jpg)
 
 ## How to Run
 
