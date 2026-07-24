@@ -3,15 +3,16 @@
 A simple Java Object-Oriented Programming (OOP) project that simulates a traffic radar system. The system observes passing vehicles, applies traffic rules, detects violations, and generates traffic fines.
 
 ## Features
-
 - Detects speeding violations.
 - Detects seatbelt violations.
-- Supports adding new traffic rules without modifying the existing system.
+- Supports multiple vehicle types with different speed limits.
+- Easily extensible by adding new rules through the Rule interface.
 - Generates fines for violating vehicles.
 - Calculates the total fine amount for each vehicle.
-- Displays all detected violations.
-- Counts the occurrence of each violation type.
-
+- Prints detailed fine reports.
+- Prints a summary of all fines.
+- Displays the number of occurrences for each violation type.
+  
 ## Project Structure
 
 ```
