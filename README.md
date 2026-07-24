@@ -74,12 +74,10 @@ Output
 
 ```
 Traffic fine for car ABC1234
-
 Total amount: 400 EGP
-
 Violations:
-- Seatbelt not fastened : 100 EGP
-- Speed of 94 exceeded max allowed 80 : 300 EGP
+- Seatbelt not fastned  : 100 EGP
+- speed of 94 exceeded max allowed 80 : 300 EGP
 ```
 
 ## OOP Concepts Used
