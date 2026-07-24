@@ -107,15 +107,6 @@ git clone https://github.com/hosam-zakaria/Fawry_internship_assessment
 Main.java
 ```
 
-## Future Improvements
-
-- Add red-light violation detection.
-- Add lane violation detection.
-- Read observations from a CSV file.
-- Export generated fines to a file.
-- Store data in a database.
-- Unit testing with JUnit.
-
 ## Technologies
 
 - Java
