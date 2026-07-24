@@ -96,7 +96,7 @@ Violations:
 1. Clone the repository
 
 ```bash
-git clone [https://github.com/hosam-zakaria/fawry-internship-assessment.git](https://github.com/hosam-zakaria/Fawry_internship_assessment)
+git clone https://github.com/hosam-zakaria/Fawry_internship_assessment
 ```
 
 2. Open the project in your preferred Java IDE (IntelliJ IDEA, Eclipse, VS Code).
