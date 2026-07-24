@@ -23,6 +23,7 @@ ScrRadar/
 │── Rule.java
 │── SpeedRule.java
 │── SeatbeltRule.java
+│── Printer.java
 └── Violation.java
 ```
 
@@ -38,6 +39,7 @@ ScrRadar/
 | `SeatbeltRule` | Checks whether the driver is wearing a seatbelt. |
 | `Violation` | Represents a traffic violation and its fine amount. |
 | `Fine` | Stores all violations for a vehicle and calculates the total fine. |
+| `Printer` | Handles printing reports, fines, and violation statistics. |
 
 ## Implemented Rules
 
