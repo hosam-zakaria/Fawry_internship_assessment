@@ -2,17 +2,6 @@
 
 A simple Java Object-Oriented Programming (OOP) project that simulates a traffic radar system. The system observes passing vehicles, applies traffic rules, detects violations, and generates traffic fines.
 
-## Features
-- Detects speeding violations.
-- Detects seatbelt violations.
-- Supports multiple vehicle types with different speed limits.
-- Easily extensible by adding new rules through the Rule interface.
-- Generates fines for violating vehicles.
-- Calculates the total fine amount for each vehicle.
-- Prints detailed fine reports.
-- Prints a summary of all fines.
-- Displays the number of occurrences for each violation type.
-  
 ## Project Structure
 
 ```
@@ -28,70 +17,7 @@ ScrRadar/
 └── Violation.java
 ```
 
-## Class Overview
 
-| Class | Responsibility |
-|-------|----------------|
-| `Main` | Demonstrates the system. |
-| `RadarSystem` | Stores rules, processes observations, and generates fines. |
-| `Observation` | Represents a detected vehicle. |
-| `Rule` | Interface for all traffic rules. |
-| `SpeedRule` | Checks if the speed exceeds the allowed limit. |
-| `SeatbeltRule` | Checks whether the driver is wearing a seatbelt. |
-| `Violation` | Represents a traffic violation and its fine amount. |
-| `Fine` | Stores all violations for a vehicle and calculates the total fine. |
-| `Printer` | Handles printing reports, fines, and violation statistics. |
-
-## Implemented Rules
-
-### Speed Rule
-
-- Private Cars → Maximum speed: **80 km/h**
-- Trucks → Maximum speed: **60 km/h**
-
-Fine:
-- **300 EGP**
-
-### Seatbelt Rule
-
-If the driver is not wearing a seatbelt:
-
-Fine:
-- **100 EGP**
-
-## Example
-
-Input Observation
-
-```java
-Observation car1 = new Observation(
-    "ABC1234",
-    "23/7/2026",
-    "PRIVATE",
-    94,
-    "not"
-);
-```
-
-Output
-
-```
-Traffic fine for car ABC1234
-Total amount: 400 EGP
-Violations:
-- Seatbelt not fastned  : 100 EGP
-- speed of 94 exceeded max allowed 80 : 300 EGP
-```
-
-## OOP Concepts Used
-
-- Encapsulation
-- Abstraction
-- Interfaces
-- Polymorphism
-- Composition
-- Open/Closed Principle (New rules can be added by implementing the `Rule` interface.)
-  
 ## How to Run
 
 1. Clone the repository
