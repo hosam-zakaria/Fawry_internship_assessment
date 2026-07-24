@@ -104,7 +104,8 @@ git clone https://github.com/hosam-zakaria/Fawry_internship_assessment
 3. Compile and run:
 
 ```bash
-Main.java
+ javac ScrRadar/*.java
+ java ScrRadar.Main   
 ```
 
 ## Technologies
