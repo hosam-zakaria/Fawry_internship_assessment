@@ -16,7 +16,7 @@ ScrRadar/
 │── Printer.java
 └── Violation.java
 ```
-![Program Output](resault.png)
+![Program Output](resault.jpg)
 
 ## How to Run
 
